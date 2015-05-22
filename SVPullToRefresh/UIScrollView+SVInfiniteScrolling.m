@@ -240,6 +240,10 @@ UIEdgeInsets scrollViewOriginalContentInsets;
     self.activityIndicatorView.activityIndicatorViewStyle = viewStyle;
 }
 
+- (void)setActivityTintColor:(UIColor *)activityTintColor {
+    self.activityIndicatorView.tintColor = activityTintColor;
+}
+
 #pragma mark -
 
 - (void)triggerRefresh {
